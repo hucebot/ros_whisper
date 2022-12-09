@@ -1,0 +1,19 @@
+<package format="2">
+  <name>ros_whisper</name>
+  <version>1.2.4</version>
+  <description>
+    This package provides voice recognition.
+  </description>
+  <maintainer email="jean-baptiste.mouret@inria.fr">Jean-Baptiste Mouret</maintainer>
+  <license>MIT</license>
+
+  <url>https://github.com/hucebot/ros_whisper</url>
+  <author>Jean-Baptiste Mouret</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
